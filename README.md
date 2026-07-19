@@ -24,13 +24,13 @@ This is a backend Employee Management System built using Spring Boot. It provide
 
 ## API Endpoints
 
-| Method | Endpoint |
-|--------|----------|
-| POST | /employees |
-| GET | /employees |
-| GET | /employees/{id} |
-| PUT | /employees/{id} |
-| DELETE | /employees/{id} |
+| Method | Endpoint  |
+|--------|-----------|
+| POST | /emp      |
+| GET | /emp      |
+| GET | /emp/{id} |
+| PUT | /emp/{id} |
+| DELETE | /emp/{id} |
 
 ## Database
 
