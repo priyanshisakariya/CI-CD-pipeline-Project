@@ -21,8 +21,8 @@ pipeline {
 
         stage('Docker Run') {
             steps {
-                bat 'docker stop emp-app'
-                bat 'docker rm emp-app'
+                bat 'docker stop emp-app || exit 0'
+                bat 'docker rm emp-app || exit 0'
                 bat 'docker run -d -p 8081:8081 --name emp-app employee-management:v1'
             }
         }
